@@ -11,7 +11,7 @@
 int main(int argc, char *argv[]) {
   char comando[256];
 
-  printf("Digite su comando: ");
+  printf("Digite su comando : ");fflush(stdout);
 
   fgets(comando, sizeof(comando), stdin);
   printf("Comando: ");
